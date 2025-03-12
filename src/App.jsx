@@ -1,17 +1,19 @@
-import { useState } from 'react'
 import './App.css'
 import Layout from './components/Layout'
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
+import PageTitle from './components/PageTitle'
+import { resources } from './assets/Resources'
+
+
 
 
 function App() {
 
 
   return (
-    <Layout>
+    <Layout >
       <Routes>
-        <Route path="home" element={<Home/>}/>
+        <Route path="/pagetitle" element={<PageTitle resources={resources}/>}/>
       </Routes>
     </Layout>
   )
