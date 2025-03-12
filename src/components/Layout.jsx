@@ -5,8 +5,8 @@ export default function Layout({children}){
     <>
        <header>
             <nav>
-              <Link to="home">Hjem</Link>
-              <Link to="test">Test</Link>
+              <Link to="/home">Hjem</Link>
+              <Link to="/test">Test</Link>
             </nav>
        </header>
        {children}
