@@ -10,7 +10,7 @@ export default function Page({category, text, sources}){
             <p>{text}</p>
             <ul>
                 {sources.map((source,)=> 
-                <li><Link to={source.url}>{source.title}</Link></li>)}
+                <li key={source.url}><Link to={source.url}>{source.title}</Link></li>)}
             </ul>
         </article>
     </>

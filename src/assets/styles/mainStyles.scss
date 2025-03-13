@@ -1,0 +1,26 @@
+@import "colorVaribels.scss";
+body{
+    background-color: $whiteish;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "roboto", "montserrat"; 
+
+
+    
+
+}
+main{
+    margin: 1rem 5rem 0 5rem; 
+    width: 80%;
+
+    article{
+        background-color: $white;
+        color: $darkgrey;
+        padding: 2rem;
+         a{
+            color: $lightgrey;
+         }
+    }
+}
+

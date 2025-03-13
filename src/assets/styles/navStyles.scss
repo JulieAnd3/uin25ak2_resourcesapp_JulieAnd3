@@ -1,0 +1,40 @@
+@import "colorVaribels.scss";
+
+header{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 80%;
+    nav{
+        
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+            width: 100%;
+            justify-content: space-between;
+            min-width: max-content;
+
+            a{
+                background-color: $darkgrey;
+                color: $white;
+                text-decoration: none;
+                padding: 1.5rem 3rem ;
+                font-size: 18px;
+                
+                margin: 0 0.5rem;
+            }
+            #htmlSite{ 
+                margin-left: 0;
+            }
+            #sanityCmsSite{
+                margin-right: 0;
+            }
+            a:hover{
+                background-color: $white;
+                color: $darkgrey;
+            }
+        }
+    }
+}
