@@ -13,7 +13,7 @@ function App() {
   return (
     <Layout >
       <Routes>
-        <Route path="/pagetitle" element={<PageTitle resources={resources}/>}/>
+        <Route path=":slug" element={<PageTitle resources={resources}/>}/>
       </Routes>
     </Layout>
   )

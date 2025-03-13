@@ -4,12 +4,13 @@ import Page from "./Page"
 
 export default function PageTitle({resources}){
     const {slug} = useParams()
-    console.log("Console log page title:", resources)
+    console.log(slug)
 
 
     return(
         <>
-        {resources.map((rescource) => (
+        {resources.filter((res)=> res.category === slug)
+            .map((rescource) => (
             <Page key={rescource.category} 
             category={rescource.category} 
             text={rescource.text} 

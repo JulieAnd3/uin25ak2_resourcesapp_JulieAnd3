@@ -6,11 +6,11 @@ export default function Nav(){
         <header>
             <nav>
             <ul>
-                <li><Link to="pagetitle">PageTitle </Link></li>
-                <li><Link to="html">HTML</Link></li>
-                <li><Link to="css">CSS</Link></li>
-                <li><Link to="javascript">Javascript</Link></li>
-                <li><Link to="react_sanity">React og Sanity</Link></li>
+                <li><Link to="/HTML">HTML</Link></li>
+                <li><Link to="/CSS">CSS</Link></li>
+                <li><Link to="/JavaScript">Javascript</Link></li>
+                <li><Link to="/React">React</Link></li>
+                <li><Link to="/Sanity and headless CMS">Sanity and headless CMS</Link></li>
             </ul>
             </nav>
         </header>
