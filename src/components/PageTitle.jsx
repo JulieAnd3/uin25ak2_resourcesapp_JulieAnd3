@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import Page from "./Page"
 
 
 export default function PageTitle({resources}){
@@ -8,14 +9,12 @@ export default function PageTitle({resources}){
 
     return(
         <>
-            <article>
-                <h2></h2>
-                <p>Tekst</p>
-                <ul>
-                    <li>Linker</li>
-                </ul>
-            </article>
-        </>
+        {resources.map((rescource) => (
+            <Page key={rescource.category} 
+            category={rescource.category} 
+            text={rescource.text} 
+            sources={rescource.sources}/>))}
+         </>
     )
 }
 
