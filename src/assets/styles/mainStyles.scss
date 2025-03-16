@@ -1,13 +1,7 @@
 @import "colorVaribels.scss";
 body{
     background-color: $whiteish;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
     font-family: "roboto", "montserrat"; 
-
-
-    
 
 }
 main{
@@ -21,7 +15,20 @@ article{
     background-color: $white;
     color: $darkgrey;
     padding: 2rem;
-     a{
-        color: $lightgrey;
-     }
+    min-width: 903px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+
+    p{
+        text-align:left;
+    }
+
+    ul{
+        text-align:left;
+        a{
+            color: $lightgrey;
+            text-align:left;
+         }
+    }
 }
