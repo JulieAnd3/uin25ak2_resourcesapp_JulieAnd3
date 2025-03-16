@@ -1,4 +1,6 @@
 import Nav from './Nav'
+import "../assets/styles/mainStyles.scss";
+
 
 
 export default function Layout({children}){
@@ -7,9 +9,9 @@ export default function Layout({children}){
   
       <Nav/>
         <main>
-          <article>
+         
           {children}
-          </article>
+          
         </main>
    
     </>

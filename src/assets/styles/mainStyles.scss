@@ -14,13 +14,14 @@ main{
     margin: 1rem 5rem 0 5rem; 
     width: 80%;
 
-    article{
-        background-color: $white;
-        color: $darkgrey;
-        padding: 2rem;
-         a{
-            color: $lightgrey;
-         }
-    }
+
 }
 
+article{
+    background-color: $white;
+    color: $darkgrey;
+    padding: 2rem;
+     a{
+        color: $lightgrey;
+     }
+}
